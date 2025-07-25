@@ -18,6 +18,7 @@
   "homepage": "https://github.com/raxavelo/soyummy-cypress#readme",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
     "cypress": "^14.5.2"
   }
 }

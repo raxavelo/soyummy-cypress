@@ -1,5 +1,5 @@
 import WelcomePage from "../support/pages/WelcomePage";
-import RegisterPage from "../support/pages/RegisterPage";
+import RegistrationPage from "../support/pages/RegistrationPage";
 import SignInPage from "../support/pages/SignInPage";
 
 describe("Welcome Page", () => {
@@ -35,7 +35,7 @@ describe("Welcome Page", () => {
 
   it("should navigate to the register page when clicking the register button", () => {
     WelcomePage.getRegisterButton().click();
-    cy.url().should("equal", RegisterPage.getUrl());
+    cy.url().should("equal", RegistrationPage.getUrl());
   });
 
   it("should navigate to the sign in page when clicking the sign in button", () => {
